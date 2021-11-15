@@ -23,14 +23,14 @@ bool cont = true;
 int main (){
 
 do{
-    cout << "******Calculo de Probabilidad de Bolletos de loteria******" << endl << endl;
-    cout << "¿Desea jugar? Presione 1 para jugar y 2 para salir" << endl;
+    cout << "******Cálculo de Probabilidad de Boletos de lotería******" << endl << endl;
+    cout << "¿Desea jugar? Presione 1 para jugar y 2 para salir." << endl;
     cin >> play;
     cin.ignore();
     cout << endl;
 
     if(play == 2){
-        cout << "Es una lastima, para la próxima sera. Que tenga un buen día" << endl;
+        cout << "Es una lastima, para la próxima será. Que tenga un buen día." << endl;
         cont = false;
     }
 
